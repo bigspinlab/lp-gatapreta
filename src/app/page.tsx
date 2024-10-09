@@ -4,19 +4,19 @@ import { Accordion,
   AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <h1>Home</h1>
-      <section>
-        <article>
-          <h1 className="sr-only">bem vindo</h1>
-          <div>
-            <h2>BEM VINDO A SUA MELHOR DISTRIBUIDORA 
-            DE CALÇADOS FEMININOS </h2>
-            <Button>Comprar no site</Button>
-          </div>
+      <h1 className="sr-only">gata preta sapatilhas - sua melhor distribuidora de calçados femininos</h1>
+      <section className="w-full">
+        <article className="w-full flex flex-col gap-2 p-4 bg-lp-purple-300">
+          <h2 className="text-white font-bold uppercase ">bem vindo a sua melhor distribuidora de calçados femininos</h2>
+          <Button className="bg-lp-green-100 text-lp-purple-300 font-bold uppercase hover:bg-lp-green-100/[0.9]" asChild>
+            <Link href="/" rel="noopenner">Comprar no site</Link>
+          </Button>        
+          
         </article>
       </section>
 

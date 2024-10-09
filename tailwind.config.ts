@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			montserrat: ['var(--font-montserrat)'],
+			anton: ['var(--font-anton)'],
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -49,7 +53,11 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			'lp-purple-300': '#37113e',
+			'lp-purple-100': '#6c0082',
+			'lp-pastel-100': "#fff9f3",
+			'lp-green-100': '#85f753',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -80,6 +88,6 @@ const config: Config = {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [],
 };
 export default config;
