@@ -30,36 +30,37 @@ export default function Home() {
         </article>
       </section>
 
-      <section>
-        <article>
-          <h2>Revendedoras em todo o Brasil</h2>
-          <ul>
-            <li>
-                <div>
+      <section className="w-full bg-lp-pastel-100">
+        <article className="flex flex-col gap-8 justify-center items-center p-10">
+          <h2 className="text-4xl">Revendedoras em <strong>todo o Brasil</strong>
+          </h2>
+          <ul className="w-full grid grid-cols-2 items-center justify-items-center gap-6">
+            <li className="bg-white p-6 rounded-full flex flex-col items-center">
+                
                   <h3>+ 30 mil</h3>
                   <h4>pedidos enviados</h4>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3>+ 400 mil</h3>
-                  <h4>modelos e entregas</h4>
-                </div>
-              </li>
+                
+            </li>
+            <li className="bg-white p-6 rounded-full flex flex-col items-center">
+              
+                <h3>+ 400 mil</h3>
+                <h4>modelos e entregas</h4>
+              
+            </li>
 
-              <li>
-                <div>
-                  <h3>+ 9 mil</h3>
-                  <h4>clientes atendidos</h4>
-                </div>
-              </li>
+            <li className="bg-white p-6 rounded-full flex flex-col items-center">
+              
+                <h3>+ 9 mil</h3>
+                <h4>clientes atendidos</h4>
+              
+            </li>
 
-              <li>
-                <div>
-                  <h3>+ 281 mil</h3>
-                  <h4>seguidores no instagram</h4>
-                </div>
-              </li>
+            <li className="bg-white p-6 rounded-full flex flex-col items-center">
+              
+                <h3>+ 281 mil</h3>
+                <h4>seguidores no instagram</h4>
+              
+            </li>
           </ul>
         </article>
       </section>
