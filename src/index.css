@@ -17,3 +17,16 @@ body {
     --background: 0 0% 100%;
   }
 }
+
+summary::after {
+  content: '+';
+  font-size: 1.25rem; /* Adjust the size of the plus icon */
+  font-weight: bold;
+  color: #4b5563; /* Tailwind's gray-600 */
+  margin-left: auto; /* Push the icon to the right */
+}
+
+/* When the details are open, change the plus to a minus */
+details[open] summary::after {
+  content: '-';
+}
