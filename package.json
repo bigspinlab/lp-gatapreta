@@ -3,14 +3,22 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "lint": "eslint 'src/*.{js,jsx}'",
+        "format": "prettier --write 'src/*.{js,jsx,css,html}'",
         "clean": "rimraf dist",
         "start": "parcel src/index.html",
         "build": "npm run clean && parcel build src/index.html --no-source-maps --public-url ./"
     },
     "devDependencies": {
+        "@eslint/js": "^9.12.0",
         "autoprefixer": "^10.4.20",
+        "eslint": "^9.12.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "globals": "^15.11.0",
         "parcel": "^2.12.0",
         "postcss": "^8.4.47",
+        "prettier": "^3.3.3",
         "rimraf": "^5.0.10",
         "tailwindcss": "^3.4.13"
     }
