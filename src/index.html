@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link href="./index.css" type="text/css" rel="stylesheet" />
     <title>My First Parcel App</title>
   </head>
@@ -10,113 +15,139 @@
       <h1 class="twlp-sr-only">
         gata preta sapatilhas - sua melhor distribuidora de calçados femininos
       </h1>
+
+      <!-- Section 1: Introduction -->
       <section class="twlp-w-full">
         <article
-          class="twlp-w-full twlp-flex twlp-flex-col twlp-gap-2 twlp-p-4 twlp-bg-lp-purple-300"
+          class="twlp-w-full twlp-flex twlp-flex-col twlp-gap-4 twlp-px-4 twlp-py-6 md:twlp-px-10 twlp-bg-lp-purple-300"
         >
           <h2 class="twlp-text-white twlp-font-bold twlp-uppercase">
             bem vindo a sua melhor distribuidora de calçados femininos
           </h2>
-          <button
-            class="twlp-bg-lp-green-100 twlp-text-lp-purple-300 twlp-font-bold twlp-uppercase hover:twlp-bg-lp-green-100/[0.9]"
-            asChild
+          <a
+            class="twlp-px-5 twlp-py-1 twlp-m-auto twlp-rounded-full twlp-bg-lp-green-100 twlp-text-lp-purple-300 twlp-font-bold twlp-uppercase hover:twlp-bg-lp-green-100/[0.9]"
+            href="/"
+            rel="noopenner"
           >
-            <a href="/" rel="noopenner">Comprar no site</a>
-          </button>
+            Comprar no site
+          </a>
         </article>
       </section>
 
+      <!-- Section 2: Banner -->
       <section class="twlp-w-full">
-        <article>
-          <h2 class="twlp-sr-only">ho</h2>
-          <div>
-            <img src="https://placehold.co/600x400" alt="hero banner" />
-            <h2>
-              Revenda calçados e <strong>ganhe dinheiro</strong> sem investir em
-              estoque.
-            </h2>
-          </div>
-        </article>
-      </section>
-
-      <section class="twlp-w-full twlp-bg-lp-pastel-100">
         <article
-          class="twlp-flex twlp-flex-col twlp-gap-8 twlp-justify-center twlp-items-center twlp-p-10"
+          class="twlp-w-full twlp-relative twlp-custom-overlay twlp-max-h-[400px]"
         >
-          <h2 class="twlp-text-5xl">
-            Revendedoras em <strong>todo o Brasil</strong>
+          <h2
+            class="twlp-text-center twlp-w-full twlp-text-white twlp-text-2xl twlp-absolute twlp-left-1/2 twlp-top-1/2 -twlp-translate-y-1/2 -twlp-translate-x-1/2 twlp-z-10 twlp-leading-10"
+          >
+            Revenda calçados e <br />
+            <strong>ganhe dinheiro</strong> <br />
+            sem investir em estoque.
           </h2>
-          <ul
-            class="twlp-w-full twlp-grid twlp-grid-cols-2 twlp-items-center twlp-justify-center twlp-gap-6"
-          >
-            <li
-              class="twlp-bg-white twlp-p-6 twlp-rounded-full twlp-flex twlp-flex-col twlp-items-center"
-            >
-              <h3 class="twlp-text-4xl"><strong>+ 30 mil</strong></h3>
-              <h4>pedidos enviados</h4>
-            </li>
-            <li
-              class="twlp-bg-white twlp-p-6 twlp-rounded-full twlp-flex twlp-flex-col twlp-items-center"
-            >
-              <h3 class="twlp-text-4xl"><strong>+ 400 mil</strong></h3>
-              <h4>modelos e entregas</h4>
-            </li>
 
-            <li
-              class="twlp-bg-white twlp-p-6 twlp-rounded-full twlp-flex twlp-flex-col twlp-items-center"
-            >
-              <h3 class="twlp-text-4xl"><strong>+ 9 mil</strong></h3>
-              <h4>clientes atendidos</h4>
-            </li>
-
-            <li
-              class="twlp-bg-white twlp-p-6 twlp-rounded-full twlp-flex twlp-flex-col twlp-items-center"
-            >
-              <h3 class="twlp-text-4xl"><strong>+ 281 mil</strong></h3>
-              <h4>seguidores no instagram</h4>
-            </li>
-          </ul>
-        </article>
-      </section>
-
-      <section class="twlp-w-full">
-        <article class="twlp-w-full twlp-flex">
-          <h2 class="twlp-sr-only">Banner</h2>
-
-          <div
-            class="twlp-w-full twlp-flex twlp-flex-col twlp-gap-3 twlp-p-4 twlp-bg-lp-purple-300 twlp-text-white"
-          >
-            <span class="twlp-text-sm"
-              >Seja dona do própio negócio ou tenha uma renda extra</span
-            >
-            <h2
-              class="twlp-text-4xl twlp-uppercase twlp-text-lp-pink-100 twlp-font-bold"
-            >
-              Ganhe dinheiro
-            </h2>
-            <p class="twlp-text-base">
-              revendendo um dos itens mais comprados pelas mulheres: calçados
-            </p>
-            <button
-              class="twlp-bg-lp-green-100 twlp-text-lp-purple-300 twlp-rounded-lg twlp-font-bold twlp-uppercase hover:twlp-bg-lp-green-100/[0.9] twlp-mt-auto"
-            >
-              Acessar o site
-            </button>
-          </div>
           <img
-            class="twlp-max-w-full"
-            src="https://placehold.co/300x400"
+            class="twlp-w-full twlp-max-h-[400px] twlp-object-cover"
+            src="https://placehold.co/600x400"
             alt="hero banner"
           />
         </article>
       </section>
 
+      <!-- Section 3: Statistics -->
+      <section class="twlp-w-full twlp-bg-lp-pastel-100">
+        <article
+          class="twlp-flex twlp-flex-col twlp-gap-8 twlp-justify-center twlp-items-center twlp-px-4 twlp-py-20 md:twlp-px-10"
+        >
+          <h2 class="twlp-text-2xl md:twlp-text-3xl">
+            Revendedoras em <strong>todo o Brasil</strong>
+          </h2>
+          <ul
+            class="twlp-w-full twlp-grid twlp-grid-cols-2 twlp-items-center twlp-justify-center twlp-gap-6 twlp-text-lp-purple-100"
+          >
+            <li
+              class="twlp-px-5 twlp-py-3 twlp-m-auto twlp-min-w-44 twlp-bg-white twlp-p-6 twlp-rounded-full twlp-flex twlp-flex-col twlp-items-center"
+            >
+              <h3 class="twlp-text-2xl md:twlp-text-3xl">
+                <strong>+ 30 mil</strong>
+              </h3>
+              <h4 class="twlp-text-xs">pedidos enviados</h4>
+            </li>
+            <li
+              class="twlp-px-5 twlp-py-3 twlp-m-auto twlp-min-w-44 twlp-bg-white twlp-p-6 twlp-rounded-full twlp-flex twlp-flex-col twlp-items-center"
+            >
+              <h3 class="twlp-text-2xl md:twlp-text-3xl">
+                <strong>+ 400 mil</strong>
+              </h3>
+              <h4 class="twlp-text-xs">modelos e entregas</h4>
+            </li>
+
+            <li
+              class="twlp-px-5 twlp-py-3 twlp-m-auto twlp-min-w-44 twlp-bg-white twlp-p-6 twlp-rounded-full twlp-flex twlp-flex-col twlp-items-center"
+            >
+              <h3 class="twlp-text-2xl md:twlp-text-3xl">
+                <strong>+ 9 mil</strong>
+              </h3>
+              <h4 class="twlp-text-xs">clientes atendidos</h4>
+            </li>
+
+            <li
+              class="twlp-px-5 twlp-py-3 twlp-m-auto twlp-min-w-44 twlp-bg-white twlp-p-6 twlp-rounded-full twlp-flex twlp-flex-col twlp-items-center"
+            >
+              <h3 class="twlp-text-2xl md:twlp-text-3xl">
+                <strong>+ 281 mil</strong>
+              </h3>
+              <h4 class="twlp-text-xs">seguidores no Instagram</h4>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Section 4: Call-to-Action Banner -->
       <section class="twlp-w-full">
-        <article>
+        <article class="twlp-w-full twlp-flex">
+          <h2 class="twlp-sr-only">Banner</h2>
+
+          <div
+            class="twlp-w-full twlp-min-w-[60%] twlp-flex twlp-flex-col twlp-justify-between twlp-gap-1 twlp-py-20 twlp-px-4 twlp-bg-lp-purple-300 twlp-text-white"
+          >
+            <span class="twlp-text-xs twlp-mb-14"
+              >Seja dona do própio negócio ou tenha uma renda extra</span
+            >
+            <h2
+              class="twlp-text-5xl twlp-uppercase twlp-text-lp-pink-100 twlp-anton"
+            >
+              Ganhe <br />
+              dinheiro
+            </h2>
+            <p class="twlp-text-base twlp-mb-10">
+              revendendo um dos itens mais comprados pelas mulheres: calçados
+            </p>
+            <a
+              class="twlp-px-5 twlp-py-1 twlp-m-auto twlp-rounded-full twlp-bg-lp-green-100 twlp-text-lp-purple-300 twlp-font-bold hover:twlp-bg-lp-green-100/[0.9]"
+              href="/"
+              rel="noopenner"
+            >
+              Acessar o site
+            </a>
+          </div>
+          <div class="twlp-w-full twlp-relative">
+            <img
+              class="twlp-w-full twlp-h-full twlp-absolute twlp-right-0 twlp-top-0 twlp-object-cover"
+              src="https://placehold.co/300x400"
+              alt="hero banner"
+            />
+          </div>
+        </article>
+      </section>
+
+      <!-- Section 5: YouTube Video -->
+      <section class="twlp-w-full">
+        <article class="twlp-w-full twlp-flex">
           <h2 class="twlp-sr-only">Video</h2>
           <iframe
-            width="560"
-            height="315"
+            class="twlp-w-full twlp-h-[400px]"
             src="https://www.youtube.com/embed/kXYiU_JCYtU?si=YAegj4QAwC23vM-H"
             title="YouTube video player"
             frameborder="0"
@@ -127,11 +158,12 @@
         </article>
       </section>
 
+      <!-- Section 6: How It Works -->
       <section class="twlp-w-full">
         <article
-          class="twlp-w-full twlp-flex twlp-flex-col twlp-items-center twlp-gap-5"
+          class="twlp-flex twlp-flex-col twlp-gap-8 twlp-justify-center twlp-items-center twlp-px-4 twlp-py-20 md:twlp-px-10"
         >
-          <h2 class="twlp-text-4xl">Como funciona o nosso atacado</h2>
+          <h2 class="twlp-text-3xl">Como funciona o nosso atacado</h2>
           <ul
             class="twlp-w-full twlp-grid twlp-grid-cols-2 twlp-items-center twlp-justify-center twlp-gap-6"
           >
@@ -161,16 +193,22 @@
         </article>
       </section>
 
+      <!-- Section 7: Testimonials -->
       <section class="twlp-w-full twlp-bg-lp-pastel-100">
-        <article>
+        <article
+          class="twlp-flex twlp-flex-col twlp-gap-8 twlp-justify-center twlp-items-center twlp-px-4 twlp-py-20 md:twlp-px-10"
+        >
           <h2>O que dizem nossas clientes</h2>
           <div>carrousel here</div>
         </article>
       </section>
 
+      <!-- Section 8: Why You'll Love -->
       <section class="twlp-w-full">
-        <article class="twlp-w-full twlp-flex twlp-flex-col twlp-gap-5">
-          <h2 class="twlp-text-4xl">
+        <article
+          class="twlp-flex twlp-flex-col twlp-gap-8 twlp-justify-center twlp-items-center twlp-px-4 twlp-py-20 md:twlp-px-10"
+        >
+          <h2 class="twlp-text-3xl">
             Porque você vai amar revender Gata Preta
           </h2>
           <ul
@@ -202,9 +240,12 @@
         </article>
       </section>
 
+      <!-- Section 9: Guarantee -->
       <section class="twlp-w-full twlp-bg-lp-pastel-100">
-        <article class="twlp-w-full twlp-flex twlp-flex-col twlp-gap-5">
-          <h2 class="twlp-text-4xl twlp-uppercase">garantia de satisfação</h2>
+        <article
+          class="twlp-flex twlp-flex-col twlp-gap-8 twlp-justify-center twlp-items-center twlp-px-4 twlp-py-20 md:twlp-px-10"
+        >
+          <h2 class="twlp-text-3xl twlp-uppercase">garantia de satisfação</h2>
           <p class="twlp-text-base">
             Caso receba nossos produtos e não goste, você poderá devolver o
             pedido integralmente e receber seu dinheiro de volta, desde que a
@@ -214,97 +255,108 @@
         </article>
       </section>
 
-      <section class="twlp-w-full">
+      <!-- Section 10: FAQ -->
+      <section class="twlp-w-full twlp-bg-lp-purple-300 twlp-text-white">
         <article
-          class="twlp-w-full twlp-flex twlp-flex-col twlp-items-center twlp-gap-2 twlp-p-4 twlp-bg-lp-purple-300 twlp-text-white"
+          class="twlp-flex twlp-flex-col twlp-gap-8 twlp-justify-center twlp-items-center twlp-px-4 twlp-py-20 md:twlp-px-10"
         >
-          <h2 class="twlp-text-4xl">
+          <h2 class="twlp-text-3xl">
             Venha fazer parte <br />
             <strong>deste sucesso</strong>
           </h2>
-          <button
-            class="twlp-bg-lp-green-100 twlp-text-lp-purple-300 twlp-font-bold twlp-uppercase hover:twlp-bg-lp-green-100/[0.9]"
+          <a
+            class="twlp-px-5 twlp-py-1 twlp-m-auto twlp-rounded-full twlp-bg-lp-green-100 twlp-text-lp-purple-300 twlp-font-bold hover:twlp-bg-lp-green-100/[0.9]"
+            href="/"
+            rel="noopenner"
           >
             Entrar no grupo VIP
-          </button>
+          </a>
         </article>
       </section>
 
       <section class="twlp-w-full">
-        <article>
-          <h2 class="twlp-text-4xl">Dúvidas frequentes</h2>
+        <article
+          class="twlp-flex twlp-flex-col twlp-gap-8 twlp-justify-center twlp-items-center twlp-px-4 twlp-py-20 md:twlp-px-10"
+        >
+          <h2 class="twlp-text-3xl twlp-text-lp-purple-100 twlp-font-bold">
+            Dúvidas frequentes
+          </h2>
 
-          <details class="twlp-border-b">
-            <summary
-              class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-text-gray-700 twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
-            >
-              Preciso ter CNPJ?
-            </summary>
-            <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
-              Não, a compra pode ser feita com o seu CPF ou CNPJ.
-            </div>
-          </details>
+          <div
+            class="twlp-w-full twlp-flex twlp-flex-col twlp-text-lp-pink-100"
+          >
+            <details class="twlp-border-b">
+              <summary
+                class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
+              >
+                Preciso ter CNPJ?
+              </summary>
+              <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
+                Não, a compra pode ser feita com o seu CPF ou CNPJ.
+              </div>
+            </details>
 
-          <details class="twlp-border-b">
-            <summary
-              class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-text-gray-700 twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
-            >
-              É confiável?
-            </summary>
-            <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
-              Fique tranquilo(a), somos uma empresa sólida e estamos no mercado
-              há mais de 9 anos. Garantimos 100% a entrega de sua compra ou o
-              seu dinheiro de volta.
-            </div>
-          </details>
+            <details class="twlp-border-b">
+              <summary
+                class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
+              >
+                É confiável?
+              </summary>
+              <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
+                Fique tranquilo(a), somos uma empresa sólida e estamos no
+                mercado há mais de 9 anos. Garantimos 100% a entrega de sua
+                compra ou o seu dinheiro de volta.
+              </div>
+            </details>
 
-          <details class="twlp-border-b">
-            <summary
-              class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-text-gray-700 twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
-            >
-              Preciso ter uma loja?
-            </summary>
-            <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
-              Não, você pode revender nossos produtos usando os recursos que
-              possui, telefone, whatsapp, Instagran, etc.
-            </div>
-          </details>
+            <details class="twlp-border-b">
+              <summary
+                class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
+              >
+                Preciso ter uma loja?
+              </summary>
+              <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
+                Não, você pode revender nossos produtos usando os recursos que
+                possui, telefone, whatsapp, Instagran, etc.
+              </div>
+            </details>
 
-          <details class="twlp-border-b">
-            <summary
-              class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-text-gray-700 twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
-            >
-              Como posso entrar em contato?
-            </summary>
-            <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
-              Por telefone (31) 3840-6357, Whataspp: (31) 9 8621-0750 ou e-mail:
-              contato@gatapretasapatilhas.com.br
-            </div>
-          </details>
+            <details class="twlp-border-b">
+              <summary
+                class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
+              >
+                Como posso entrar em contato?
+              </summary>
+              <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
+                Por telefone (31) 3840-6357, Whataspp: (31) 9 8621-0750 ou
+                e-mail: contato@gatapretasapatilhas.com.br
+              </div>
+            </details>
 
-          <details class="twlp-border-b">
-            <summary
-              class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-text-gray-700 twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
-            >
-              Os calçados possuem garantia?
-            </summary>
-            <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
-              Sim! São 30 dias de garantia. Conferimos todos os calçados de
-              enviá-los, mas caso tenha algum problema, estamos a disposição
-              para ajudar.
-            </div>
-          </details>
+            <details class="twlp-border-b">
+              <summary
+                class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
+              >
+                Os calçados possuem garantia?
+              </summary>
+              <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
+                Sim! São 30 dias de garantia. Conferimos todos os calçados de
+                enviá-los, mas caso tenha algum problema, estamos a disposição
+                para ajudar.
+              </div>
+            </details>
 
-          <details class="twlp-border-b">
-            <summary
-              class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-text-gray-700 twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
-            >
-              É consignado?
-            </summary>
-            <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
-              Não, para adquirir os produtos é necessário comprá-los
-            </div>
-          </details>
+            <details class="twlp-border-b">
+              <summary
+                class="twlp-w-full twlp-px-4 twlp-py-2 twlp-font-medium twlp-cursor-pointer twlp-flex twlp-justify-between twlp-items-center hover:twlp-bg-gray-100 focus:twlp-outline-none"
+              >
+                É consignado?
+              </summary>
+              <div class="twlp-px-4 twlp-py-2 twlp-text-gray-600">
+                Não, para adquirir os produtos é necessário comprá-los
+              </div>
+            </details>
+          </div>
         </article>
       </section>
     </div>

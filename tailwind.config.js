@@ -5,7 +5,7 @@ module.exports = {
   ],
   prefix: 'twlp-',
   theme: {
-  	extend: {
+    extend: {
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
         anton: ['var(--font-anton)'],
@@ -17,7 +17,7 @@ module.exports = {
         'lp-pastel-100': "#fff9f3",
         'lp-green-100': '#85f753',
       }
-  	}
+    }
   },
   plugins: [],
 }

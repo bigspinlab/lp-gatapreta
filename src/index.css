@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @layer utilities {
@@ -29,4 +29,19 @@ summary::after {
 /* When the details are open, change the plus to a minus */
 details[open] summary::after {
   content: '-';
+}
+
+.twlp-custom-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.twlp-anton {
+  font-family: 'Anton', sans-serif;
 }
