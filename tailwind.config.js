@@ -5,6 +5,20 @@ module.exports = {
   ],
   prefix: 'twlp-',
   theme: {
+    fontSize: {
+      // Default values with adjusted sizes
+      xs: '1.2rem',  // 12px
+      sm: '1.4rem',  // 14px
+      base: '1.6rem',  // 16px
+      lg: '1.8rem',  // 18px
+      xl: '2rem',  // 20px
+      '2xl': '2.4rem',  // 24px
+      '3xl': '3rem',  // 30px
+      '4xl': '3.6rem',  // 36px
+      '5xl': '4.8rem',  // 48px
+      '6xl': '6rem',  // 60px
+      '7xl': '7.2rem',  // 72px
+    },
     extend: {
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
