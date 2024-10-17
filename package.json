@@ -7,7 +7,7 @@
         "format": "prettier --write 'src/*.{js,jsx,css,html}'",
         "clean": "rimraf dist",
         "start": "parcel src/index.html",
-        "build": "npm run clean && parcel build src/index.html --no-source-maps --public-url ./"
+        "build": "npm run clean && parcel build src/index.html --no-source-maps --public-url ./ && node scripts/inline-svg.js"
     },
     "devDependencies": {
         "@eslint/js": "^9.12.0",
@@ -16,8 +16,12 @@
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-prettier": "^5.2.1",
         "globals": "^15.11.0",
+        "inline-svg": "^2.2.3",
         "parcel": "^2.12.0",
         "postcss": "^8.4.47",
+        "posthtml": "^0.16.6",
+        "posthtml-expressions": "^1.11.4",
+        "posthtml-inline-svg": "^0.2.0",
         "prettier": "^3.3.3",
         "rimraf": "^5.0.10",
         "tailwindcss": "^3.4.13"
