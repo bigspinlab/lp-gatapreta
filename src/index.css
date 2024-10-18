@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@splidejs;
 
 html {
   font-size: 62.5%; /* 1rem = 10px */
@@ -22,6 +23,10 @@ body {
   }
 }
 
+.twlp-border-button {
+  border: 2px solid #85f753;
+}
+
 summary::-webkit-details-marker {
   display: none;
 }
@@ -30,7 +35,7 @@ summary::after {
   content: '+';
   font-size: 1.25rem; /* Adjust the size of the plus icon */
   font-weight: bold;
-  color: #4b5563; /* Tailwind's gray-600 */
+  color: #fe96f5; /* Tailwind's gray-600 */
   margin-left: auto; /* Push the icon to the right */
 }
 
@@ -47,9 +52,61 @@ details[open] summary::after {
   z-index: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .twlp-anton {
   font-family: 'Anton', sans-serif;
+}
+
+.twlp-bg-gradient-purple {
+  background: rgb(55, 17, 62);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(55, 17, 62, 1) 20%,
+    rgba(55, 17, 62, 0.9234287464985994) 30%,
+    rgba(55, 17, 62, 0.8477984943977591) 45%,
+    rgba(55, 17, 62, 0.6825323879551821) 55%,
+    rgba(55, 17, 62, 0.3912158613445378) 70%,
+    rgba(55, 17, 62, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(55, 17, 62, 1) 20%,
+    rgba(55, 17, 62, 0.9234287464985994) 30%,
+    rgba(55, 17, 62, 0.8477984943977591) 45%,
+    rgba(55, 17, 62, 0.6825323879551821) 55%,
+    rgba(55, 17, 62, 0.3912158613445378) 70%,
+    rgba(55, 17, 62, 0) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(55, 17, 62, 1) 20%,
+    rgba(55, 17, 62, 0.9234287464985994) 30%,
+    rgba(55, 17, 62, 0.8477984943977591) 45%,
+    rgba(55, 17, 62, 0.6825323879551821) 55%,
+    rgba(55, 17, 62, 0.3912158613445378) 70%,
+    rgba(55, 17, 62, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#37113e",endColorstr="#37113e",GradientType=1);
+}
+
+.splide__pagination__page.is-active {
+  background-color: #000; /* Tailwind's pink-500 */
+}
+
+.splide__pagination {
+  bottom: 4rem;
+}
+
+.splide__arrow--prev {
+  @media (min-width: 768px) {
+    left: 4rem;
+  }
+}
+
+.splide__arrow--next {
+  @media (min-width: 768px) {
+    right: 4rem;
+  }
 }

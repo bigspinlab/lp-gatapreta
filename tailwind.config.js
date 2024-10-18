@@ -30,7 +30,12 @@ module.exports = {
         'lp-pink-100': '#fe96f5',
         'lp-pastel-100': "#fff9f3",
         'lp-green-100': '#85f753',
-      }
+      },
+      aspectRatio: {
+        '2/3': '2 / 3',
+        '3/2': '3 / 2',
+
+      },
     }
   },
   plugins: [],
