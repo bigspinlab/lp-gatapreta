@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@splidejs;
 
 html {
   font-size: 62.5%; /* 1rem = 10px */

@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 
 function initSplide() {
-  var splide = new Splide('.splide');
+  const splide = new Splide('.splide');
   splide.mount();
 }
 
@@ -10,7 +10,7 @@ function removeStylesWrapperContent() {
   const targetUrl =
     'https://www.gatapretasapatilhas.com.br/bem-vindo-a-gata-preta-sapatilhas';
   const unWantedBlock = document.querySelector(
-    '.widget .block .block-static-block'
+    '.widget.block.block-static-block'
   );
 
   // If the current URL matches the target URL
@@ -30,6 +30,6 @@ function removeStylesWrapperContent() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  initSplide();
   removeStylesWrapperContent();
+  initSplide();
 });
