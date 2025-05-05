@@ -8,7 +8,7 @@ function initSplide() {
 function removeStylesWrapperContent() {
   const currentUrl = window.location.href;
   const targetUrl =
-    'https://www.gatapretasapatilhas.com.br/bem-vindo-a-gata-preta-sapatilhas';
+    'https://www.gatapretasapatilhas.com.br/saiba-mais';
   const unWantedBlock = document.querySelector(
     '.widget.block.block-static-block'
   );
